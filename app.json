@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pulp",
+    "slug": "pump-paper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "pulp",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.pulp.paper",
+      "infoPlist": {
+        "CFBundleDisplayName": "Pulp"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0F0C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "app.pulp.paper",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-font"]
+  }
+}
